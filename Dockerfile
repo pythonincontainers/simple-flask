@@ -8,7 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV FLASK_APP hello.py
 EXPOSE 5000
 
-CMD flask run --host 0.0.0.0
+CMD python simple-flask.py
