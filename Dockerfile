@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD python simple-flask.py
+CMD python hello.py
